@@ -1,0 +1,2 @@
+-- Active: 1773681447033@@127.0.0.1@3306
+SELECT alunos.nome AS aluno, cursos.nome AS cursos FROM matriculas JOIN alunos ON alunos.id = matriculas.aluno_id JOIN cursos ON cursos.id = matriculas.curso_id;
