@@ -1,0 +1,8 @@
+-- Active: 1774283830174@@127.0.0.1@3306
+SELECT COUNT(*) FROM Diretores
+
+SELECT COUNT(*) FROM Atores
+
+SELECT COUNT(*) FROM Filmes
+
+SELECT COUNT(*) FROM Elenco;
